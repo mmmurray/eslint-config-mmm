@@ -2,14 +2,19 @@
   "name": "eslint-config-mmm",
   "version": "0.1.0",
   "description": "ESLint configurations",
-  "author": "Mark Murray <mark@murray.xyz>",
+  "author": "Mark Murray",
   "license": "MIT",
   "repository": "git@github.com:mmmurray/eslint-config-mmm.git",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "prettier": {
+  "scripts": {
+    "commit": "mmm commit",
+    "release": "mmm release",
+    "test": "echo 'No tests to run'"
+  },
+  "peerDependencies": {
     "eslint": "^5.0.0",
     "prettier": "^1.18.2",
     "typescript": "^3.5.2"
@@ -20,5 +25,28 @@
     "eslint-config-prettier": "^5.0.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0"
+  },
+  "devDependencies": {
+    "mmm-scripts": "0.2.2"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "mmm precommit"
+    }
+  },
+  "prettier": "mmm-scripts/prettier.config",
+  "mmm": {
+    "language": "node",
+    "test": []
   }
 }
