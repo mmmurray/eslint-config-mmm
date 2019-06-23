@@ -2,7 +2,7 @@
   "name": "eslint-config-mmm",
   "version": "0.1.0",
   "description": "ESLint configurations",
-  "author": "Mark Murray <mark@murray.xyz>",
+  "author": "Mark Murray",
   "license": "MIT",
   "repository": "git@github.com:mmmurray/eslint-config-mmm.git",
   "keywords": [
