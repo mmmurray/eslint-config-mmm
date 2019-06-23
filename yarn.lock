@@ -5751,10 +5751,10 @@ mixin-deep@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
-mmm-scripts@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/mmm-scripts/-/mmm-scripts-0.2.1.tgz#e8882fcf20d5bd3cf5b20364fa0ee7fb2bbce6fa"
-  integrity sha512-FgwyhUBGQ2pyfQOxySjQdi3AVOtXkCcy0n4Omjpm6CnDgzVjuii1GGdZ4vz8NrN89BPs/yCZRfd7CsMnqE6FTw==
+mmm-scripts@0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/mmm-scripts/-/mmm-scripts-0.2.2.tgz#de454fba6a2c8135dc215790d9f3430f0336cc55"
+  integrity sha512-apc9vwD0G5Ju4tfffzWp2XY9kdVkezIaW+W+A2tLmaIaTMoK9xqdrSWWZtseKU5bi1xfZnq6fuJpLgDZaFdGEQ==
   dependencies:
     "@babel/core" "7.4.5"
     "@babel/plugin-proposal-class-properties" "7.4.4"
