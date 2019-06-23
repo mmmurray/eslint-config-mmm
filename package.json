@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "commit": "mmm commit",
-    "release": "mmm release"
+    "release": "mmm release",
+    "test": "echo 'No tests to run'"
   },
   "peerDependencies": {
     "eslint": "^5.0.0",
